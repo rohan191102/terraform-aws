@@ -19,6 +19,7 @@ phases:
       - terraform plan -out=tfplan
 
 artifacts:
+  base-directory: infra
   files:
-    - infra/
+    - '**/*'
   
