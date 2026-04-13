@@ -10,7 +10,7 @@ phases:
   build:
     commands:
       - cd infra
-      - terraform init
+      - terraform init -upgrade
       - terraform plan -out=tfplan
 
 artifacts:
