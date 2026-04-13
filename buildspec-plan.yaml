@@ -12,9 +12,6 @@ phases:
       - cd infra
       - terraform init
       - terraform plan -out=tfplan
-      - echo "........................."
-      - ls
-      - echo "........................."
 
 artifacts:
   files:

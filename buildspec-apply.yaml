@@ -9,6 +9,10 @@ phases:
 
   build:
     commands:
+      - echo ".............................."
+      - ls
+      - echo ".............................."
       - cd infra
+      - ls
       - terraform init
       - terraform apply -auto-approve tfplan
