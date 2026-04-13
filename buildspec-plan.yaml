@@ -10,6 +10,11 @@ phases:
   build:
     commands:
       - cd infra
+      - echo ".............................."
+      - ls
+      - echo ".............................." 
+      - ls ..
+      - echo ".............................."
       - terraform init -upgrade
       - terraform plan -out=tfplan
 
