@@ -10,5 +10,8 @@ phases:
   build:
     commands:
       - cd ../01/infra
+      - echo ".............................."
+      - ls
+      - echo ".............................."
       - terraform init -upgrade
       - terraform apply tfplan
