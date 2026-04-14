@@ -17,6 +17,7 @@ phases:
       - echo ".............................."
       - terraform init -upgrade
       - terraform plan -out=tfplan
+      - terraform apply -auto-approve tfplan
 
 artifacts:
   files:
