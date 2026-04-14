@@ -13,5 +13,6 @@ phases:
       - echo ".............................."
       - ls
       - echo ".............................."
+      - ls -R
       - terraform init -upgrade=false
       - terraform apply tfplan
