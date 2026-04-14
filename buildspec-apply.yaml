@@ -13,4 +13,4 @@ phases:
       - echo ".............................."
       - ls
       - terraform init -upgrade=false
-      - terraform apply tfplan
+      - terraform apply -auto-approve tfplan
