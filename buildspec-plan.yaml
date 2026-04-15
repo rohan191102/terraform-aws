@@ -21,4 +21,5 @@ phases:
 artifacts:
   files:
     - infra/tfplan
+    - infra/.terraform.lock.hcl
   
