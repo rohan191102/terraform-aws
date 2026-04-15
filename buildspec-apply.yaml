@@ -12,4 +12,5 @@ phases:
       - cd ../01/infra
       - echo ".............................."
       - ls
+      - terraform init
       - terraform apply -auto-approve tfplan
