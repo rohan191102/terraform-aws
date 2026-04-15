@@ -22,4 +22,5 @@ artifacts:
   files:
     - infra/tfplan
     - infra/.terraform.lock.hcl
+    - infra/main.tf
   
