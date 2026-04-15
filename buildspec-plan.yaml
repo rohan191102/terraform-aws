@@ -15,7 +15,6 @@ phases:
       - echo ".............................." 
       - ls ..
       - echo ".............................."
-      - terraform init -upgrade
       - terraform plan -out=tfplan
 
 artifacts:
