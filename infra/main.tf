@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket-from-terraform" {
-  bucket = "my-tf-test-bucket"
+  bucket = "terraform-test-bucket"
 
   tags = {
     Name        = "My bucket"
